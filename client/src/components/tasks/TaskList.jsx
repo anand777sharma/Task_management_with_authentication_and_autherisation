@@ -1,0 +1,28 @@
+// import TaskCard from "./TaskCard";
+
+// const TaskList = ({ tasks, onDelete }) => {
+//   return (
+//     <div className="space-y-4">
+//       {tasks.map((task) => (
+//         <TaskCard key={task._id} task={task} onDelete={onDelete} />
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default TaskList;
+
+
+import TaskCard from "./TaskCard";
+
+const TaskList = ({ tasks, onDelete, onUpdate }) => {
+  return (
+    <div className="space-y-4">
+      {tasks.map((task) => (
+        <TaskCard key={task._id} task={task} onDelete={onDelete} onUpdate={onUpdate} />
+      ))}
+    </div>
+  );
+};
+
+export default TaskList;

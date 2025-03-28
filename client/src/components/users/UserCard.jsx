@@ -1,19 +1,3 @@
-// import React from "react";
-
-// const UserCard = ({ user, onDelete }) => {
-//   return (
-//     <div className="p-4 border rounded-lg shadow-md bg-white">
-//       <h3 className="text-lg font-semibold">{user.name}</h3>
-//       <p className="text-sm text-gray-600">{user.email}</p>
-//       <p className="text-sm font-medium mt-2">Role: {user.role}</p>
-//       <button onClick={() => { onDelete(user._id) }}>Delete</button>
-//     </div>
-//   );
-// };
-
-// export default UserCard;
-
-
 import React from "react";
 
 const UserCard = ({ user, onDelete }) => {

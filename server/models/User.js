@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema(
         teamId: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "Team",
-            default: null, // If applicable
+            default: null, 
         },
     },
     { timestamps: true }
